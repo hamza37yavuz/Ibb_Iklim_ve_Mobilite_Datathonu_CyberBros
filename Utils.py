@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import config as cnf
 from itertools import combinations
-from sklearn.model_selection import GridSearchCV, cross_validate
 
 def check_df(dataframe, head=5,non_numeric=False):
     print("##################### Shape #####################")
